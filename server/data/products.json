@@ -1,0 +1,230 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Apple AirPods Max Wireless Over-Ear Headphones",
+    "description": "Apple-designed dynamic driver provides high-fidelity audio. Active Noise Cancellation blocks outside noise, so you can immerse yourself in music. Transparency mode for hearing and interacting with the world around you. Spatial audio with dynamic head tracking provides theater-like sound that surrounds you.",
+    "price": 479.00,
+    "category": "Tech",
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "reviewsCount": 3524,
+    "stock": 15,
+    "colors": ["#E5E5E5", "#1A1A1A", "#E63946"],
+    "featured": true,
+    "specs": [
+      { "name": "Audio Tech", "value": "Apple H1 Chip, Hybrid ANC" },
+      { "name": "Battery Life", "value": "Up to 20 Hours with ANC on" },
+      { "name": "Connectivity", "value": "Bluetooth 5.0" },
+      { "name": "Weight", "value": "384.8 grams (13.6 oz)" }
+    ]
+  },
+  {
+    "id": "prod-2",
+    "name": "Logitech MX Mechanical Wireless Tactile Keyboard",
+    "description": "Logitech's lowest-profile mechanical keyboard switches offer next-level typing feel. Choose tactile quiet brown switches, linear red, or clicky blue. The keys light up automatically when your hands approach, adjusting to light conditions.",
+    "price": 169.99,
+    "category": "Tech",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "reviewsCount": 1152,
+    "stock": 8,
+    "colors": ["#1A1A1A", "#6C757D"],
+    "featured": true,
+    "specs": [
+      { "name": "Switch type", "value": "Low-profile Mechanical Tactile" },
+      { "name": "Backlight", "value": "Smart Hand-Proximity White LED" },
+      { "name": "Connection", "value": "Bluetooth / Logi Bolt USB Receiver" },
+      { "name": "Battery", "value": "Up to 15 Days (10 Months off backlight)" }
+    ]
+  },
+  {
+    "id": "prod-3",
+    "name": "Herschel Heritage Backpack Laptop Sleeve 21.5L",
+    "description": "A classic design tailored for everyday use. Featuring the signature striped fabric liner, a padded 15-inch laptop sleeve, front storage pocket with key clip, and comfortable contoured shoulder straps. Ideal for work, travel, or class.",
+    "price": 64.99,
+    "category": "Lifestyle",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.6,
+    "reviewsCount": 2408,
+    "stock": 20,
+    "colors": ["#111111", "#4E545C", "#D2B48C"],
+    "featured": true,
+    "specs": [
+      { "name": "Capacity", "value": "21.5 Liters" },
+      { "name": "Material", "value": "600D Polyester Canvas" },
+      { "name": "Laptop Compartment", "value": "Padded sleeve fits up to 15\" Laptop" },
+      { "name": "Dimensions", "value": "18\" H x 12.25\" W x 5.5\" D" }
+    ]
+  },
+  {
+    "id": "prod-4",
+    "name": "Philips Hue Go Portable Smart Ambient LED Lamp",
+    "description": "Carry your light with you. Plug it in for millions of colors and warm white light, or use as a cordless centerpiece with the built-in rechargeable battery. Controllable via Bluetooth app, Zigbee hub, or Alexa voice controls.",
+    "price": 89.99,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.5,
+    "reviewsCount": 984,
+    "stock": 12,
+    "colors": ["#FFFFFF"],
+    "featured": true,
+    "specs": [
+      { "name": "Control Options", "value": "App Control, Hue Bridge, Voice Control" },
+      { "name": "Lumens Output", "value": "520 Lumens at 4000K" },
+      { "name": "Color Range", "value": "16 Million Colors & Warm-to-Cool White" },
+      { "name": "Battery Life", "value": "Up to 18 Hours (Cozy Candle effect)" }
+    ]
+  },
+  {
+    "id": "prod-5",
+    "name": "Hydro Flask Wide Mouth Bottle with Flex Straw Cap",
+    "description": "TempShield double-wall vacuum insulation keeps cold beverages ice-cold for 24 hours, and hot drinks piping hot for 12. Leakproof straw cap allows easy sipping. Pro-grade 18/8 stainless steel construction ensures taste integrity.",
+    "price": 44.95,
+    "category": "Lifestyle",
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.8,
+    "reviewsCount": 8504,
+    "stock": 45,
+    "colors": ["#2B2D42", "#8D99AE", "#EF233C"],
+    "featured": false,
+    "specs": [
+      { "name": "Capacity", "value": "32 oz (946 ml)" },
+      { "name": "Material", "value": "18/8 Pro-Grade Stainless Steel" },
+      { "name": "BPA Free", "value": "Yes, toxin-free materials" },
+      { "name": "Coating", "value": "Color Last Powder Coat" }
+    ]
+  },
+  {
+    "id": "prod-6",
+    "name": "Seiko Men's Essentials Chronograph Quartz Watch",
+    "description": "Sporty chronograph function with sub-dials measuring split seconds, seconds, and minutes. Encased in a 40mm stainless steel case with scratch-resistant Hardlex crystal and a full-grain Italian leather strap. Water depth up to 100 meters.",
+    "price": 185.00,
+    "category": "Lifestyle",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.6,
+    "reviewsCount": 732,
+    "stock": 6,
+    "colors": ["#000000", "#C0C0C0", "#CD7F32"],
+    "featured": true,
+    "specs": [
+      { "name": "Case Diameter", "value": "41mm Stainless Steel" },
+      { "name": "Movement", "value": "Caliber 8T67 Quartz Chrono" },
+      { "name": "Water Depth", "value": "100m (10 ATM)" },
+      { "name": "Strap Width", "value": "20mm interchangeable" }
+    ]
+  },
+  {
+    "id": "prod-7",
+    "name": "Vitruvi Stone Ultrasonic Essential Oil Diffuser",
+    "description": "Crafted from hand-poured porcelain ceramic cover. Operates silently using ultrasonic waves at 2.4MHz. Sleek dimmable LED accent band creates a relaxing mood. Offers a continuous 4-hour run time or 8-hour intermittent misting.",
+    "price": 123.00,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.4,
+    "reviewsCount": 1640,
+    "stock": 25,
+    "colors": ["#F0ECE9", "#5C5654"],
+    "featured": false,
+    "specs": [
+      { "name": "Reservoir", "value": "120 ml BPA-free plastic" },
+      { "name": "Misting Speed", "value": "Continuous or Intermittent settings" },
+      { "name": "Coverage Area", "value": "Up to 500 square feet" },
+      { "name": "Power Cord", "value": "5 ft white power adaptor" }
+    ]
+  },
+  {
+    "id": "prod-8",
+    "name": "Wacaco Minipresso GR Portable Espresso Machine",
+    "description": "Minipresso GR is your best choice to enjoy authentic espresso on the go. Compact, lightweight and sturdy, it uses ground coffee to deliver up to 8 bars of pressure using a hand pump. No electricity or batteries required.",
+    "price": 54.90,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.3,
+    "reviewsCount": 2180,
+    "stock": 14,
+    "colors": ["#1A1A1A"],
+    "featured": false,
+    "specs": [
+      { "name": "Pressure Output", "value": "8 bars (116 psi)" },
+      { "name": "Water Capacity", "value": "70 ml (2.35 oz)" },
+      { "name": "Ground Basket", "value": "8 grams capacity" },
+      { "name": "Length", "value": "175mm (6.89 in)" }
+    ]
+  },
+  {
+    "id": "prod-9",
+    "name": "Fujifilm Instax Mini 12 Instant Film Camera",
+    "description": "Capture memories instantly. The Instax Mini 12 features automatic exposure and flash controls, so you can just point and shoot. Built-in selfie mirror and close-up lens capability makes portrait captures simple and fun.",
+    "price": 79.95,
+    "category": "Tech",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "reviewsCount": 4208,
+    "stock": 10,
+    "colors": ["#F1FAEE", "#457B9D", "#E63946"],
+    "featured": false,
+    "specs": [
+      { "name": "Film Type", "value": "Fujifilm Instax Mini instant film" },
+      { "name": "Lens Focal", "value": "60mm fixed focus" },
+      { "name": "Shutter Range", "value": "Electronic 1/2 to 1/250 sec" },
+      { "name": "Power", "value": "2x AA Batteries (included)" }
+    ]
+  },
+  {
+    "id": "prod-10",
+    "name": "Tempur-Pedic Ergonomic Memory Foam Seat Cushion",
+    "description": "Relieve sitting pressure. Crafted with therapeutic contoured Tempur Material memory foam, designed to conform to your shape to relieve tailbone pain and correct back posture. Removable mesh cover is machine washable.",
+    "price": 79.00,
+    "category": "Lifestyle",
+    "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.4,
+    "reviewsCount": 3810,
+    "stock": 30,
+    "colors": ["#343A40"],
+    "featured": false,
+    "specs": [
+      { "name": "Core Material", "value": "Patented TEMPUR Material Foam" },
+      { "name": "Dimensions", "value": "16\" x 16\" x 2\"" },
+      { "name": "Outer Cover", "value": "Washable, non-slip bottom mesh" },
+      { "name": "Made in", "value": "United States" }
+    ]
+  },
+  {
+    "id": "prod-11",
+    "name": "Anker 3-in-1 Foldable Charging Station Cube",
+    "description": "A compact charging hub for your Apple ecosystem. Includes a 15W Max MagSafe-certified fast charger for iPhone, a fold-out magnetic charging pad for Apple Watch, and a wireless charging bed for AirPods.",
+    "price": 139.95,
+    "category": "Tech",
+    "image": "https://images.unsplash.com/photo-1622445262465-2481c4574875?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.7,
+    "reviewsCount": 892,
+    "stock": 18,
+    "colors": ["#212529", "#DEE2E6"],
+    "featured": false,
+    "specs": [
+      { "name": "Fast Wireless", "value": "Certified 15W MagSafe" },
+      { "name": "Compatibility", "value": "iPhone 12-15 Series, Watch, AirPods" },
+      { "name": "Includes", "value": "30W USB-C brick, 5ft charging cable" },
+      { "name": "Folded Size", "value": "2.4\" x 2.4\" x 2.4\" ultra portable" }
+    ]
+  },
+  {
+    "id": "prod-12",
+    "name": "iHome Smart LED Vanity Magnification Makeup Mirror",
+    "description": "Perfect cosmetics lighting. Features double-sided 1x/10x magnification mirror glass with full-spectrum surround LED ring lights. Adjust light warmth from warm amber to natural daylight. Connects via Bluetooth to stream audio.",
+    "price": 99.99,
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&auto=format&fit=crop&q=80",
+    "rating": 4.5,
+    "reviewsCount": 612,
+    "stock": 5,
+    "colors": ["#FFFFFF", "#E5A93C"],
+    "featured": false,
+    "specs": [
+      { "name": "Lighting Levels", "value": "4 settings (Warm, Cool, Daylight, Bright)" },
+      { "name": "Speaker System", "value": "Built-in Bluetooth streaming" },
+      { "name": "Ports", "value": "1x USB-A charging port for phone" },
+      { "name": "Power", "value": "100V-240V AC Adapter included" }
+    ]
+  }
+]

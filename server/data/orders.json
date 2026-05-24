@@ -1,0 +1,94 @@
+[
+  {
+    "id": "ord-1",
+    "customer": {
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "address": "123 Horizon Lane",
+      "city": "San Francisco",
+      "zip": "94107",
+      "phone": "+1 (555) 019-2834"
+    },
+    "items": [
+      {
+        "productId": "prod-1",
+        "name": "AeroSound Max",
+        "price": 249.99,
+        "quantity": 1,
+        "color": "#1A1A1A"
+      },
+      {
+        "productId": "prod-5",
+        "name": "AeroGlass Flask",
+        "price": 39.99,
+        "quantity": 2,
+        "color": "#2B2D42"
+      }
+    ],
+    "subtotal": 329.97,
+    "discount": 10.00,
+    "tax": 25.60,
+    "total": 345.57,
+    "createdAt": "2026-05-20T14:35:00.000Z",
+    "status": "Delivered"
+  },
+  {
+    "id": "ord-2",
+    "customer": {
+      "name": "Marcus Aurelius",
+      "email": "marcus@philosophy.edu",
+      "address": "456 Forum Way",
+      "city": "Rome",
+      "zip": "00184",
+      "phone": "+39 (06) 123456"
+    },
+    "items": [
+      {
+        "productId": "prod-2",
+        "name": "KeyChronicle Retro",
+        "price": 189.50,
+        "quantity": 1,
+        "color": "#D2B48C"
+      }
+    ],
+    "subtotal": 189.50,
+    "discount": 0.00,
+    "tax": 15.16,
+    "total": 204.66,
+    "createdAt": "2026-05-22T09:12:00.000Z",
+    "status": "Shipped"
+  },
+  {
+    "id": "ord-3",
+    "customer": {
+      "name": "Sarah Connor",
+      "email": "s.connor@sky-net.com",
+      "address": "789 Resistance Road",
+      "city": "Los Angeles",
+      "zip": "90001",
+      "phone": "+1 (555) 987-6543"
+    },
+    "items": [
+      {
+        "productId": "prod-3",
+        "name": "Nomad Pack 20L",
+        "price": 159.00,
+        "quantity": 1,
+        "color": "#111111"
+      },
+      {
+        "productId": "prod-4",
+        "name": "Solas Ambient Lamp",
+        "price": 89.00,
+        "quantity": 1,
+        "color": "#F5F5DC"
+      }
+    ],
+    "subtotal": 248.00,
+    "discount": 15.00,
+    "tax": 18.64,
+    "total": 251.64,
+    "createdAt": "2026-05-23T18:44:00.000Z",
+    "status": "Processing"
+  }
+]
