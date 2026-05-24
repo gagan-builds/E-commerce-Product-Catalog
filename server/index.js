@@ -176,16 +176,34 @@ app.get('/api/stats', async (req, res) => {
 
 // --- PRODUCTION FRONTEND ROUTING ---
 
-// Serve static compiled Vite files in production
-app.use(express.static(path.join(__dirname, '../dist')));
+const fs = require('fs');
+const distPath = path.join(__dirname, '../dist');
+const hasDist = fs.existsSync(distPath);
 
-// Send React App for any non-API routes (enables React SPA router)
-app.get('*any', (req, res, next) => {
-  if (req.path.startsWith('/api')) {
-    return next();
-  }
-  res.sendFile(path.join(__dirname, '../dist/index.html'));
-});
+if (hasDist) {
+  // Serve static compiled Vite files in production
+  app.use(express.static(distPath));
+
+  // Send React App for any non-API routes (enables React SPA router)
+  app.get('*any', (req, res, next) => {
+    if (req.path.startsWith('/api')) {
+      return next();
+    }
+    res.sendFile(path.join(distPath, 'index.html'));
+  });
+} else {
+  // Fallback for API-only deployments (like on Render when frontend is on Vercel)
+  app.get('/', (req, res) => {
+    res.json({ message: 'Cartify Backend API is running successfully.' });
+  });
+
+  app.get('*any', (req, res, next) => {
+    if (req.path.startsWith('/api')) {
+      return next();
+    }
+    res.status(404).json({ error: 'Endpoint not found. Frontend is deployed on Vercel.' });
+  });
+}
 
 // Connect to Database and then start Server
 connectAndSeedDB()
