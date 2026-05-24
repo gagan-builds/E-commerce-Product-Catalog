@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { DollarSign, ShoppingBag, AlertTriangle, TrendingUp, Search, Plus, Trash2, Edit3, X, Check, Activity, BarChart2 } from 'lucide-react';
+import { API_BASE } from '../config';
 
 export default function AdminDashboard() {
   const [products, setProducts] = useState([]);
@@ -48,8 +49,8 @@ export default function AdminDashboard() {
     setLoading(true);
     try {
       const [prodRes, statsRes] = await Promise.all([
-        fetch('/api/products'),
-        fetch('/api/stats')
+        fetch(`${API_BASE}/api/products`),
+        fetch(`${API_BASE}/api/stats`)
       ]);
 
       if (prodRes.ok) {
@@ -106,7 +107,7 @@ export default function AdminDashboard() {
     if (!confirm('Are you sure you want to delete this product? It will be permanently removed.')) return;
 
     try {
-      const res = await fetch(`/api/products/${id}`, {
+      const res = await fetch(`${API_BASE}/api/products/${id}`, {
         method: 'DELETE'
       });
 
@@ -151,7 +152,7 @@ export default function AdminDashboard() {
         stock: parseInt(formProduct.stock)
       };
 
-      const url = editingProduct ? `/api/products/${editingProduct.id}` : '/api/products';
+      const url = editingProduct ? `${API_BASE}/api/products/${editingProduct.id}` : `${API_BASE}/api/products`;
       const method = editingProduct ? 'PUT' : 'POST';
 
       const res = await fetch(url, {

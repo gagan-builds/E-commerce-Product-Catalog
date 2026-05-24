@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Star, ShoppingCart, Plus, Minus, ArrowLeft, ShieldCheck, Truck, RefreshCw, Check } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { Link, navigateTo } from '../App';
+import { API_BASE } from '../config';
 
 export default function ProductDetail() {
   const { addToCart } = useApp();
@@ -32,7 +33,7 @@ export default function ProductDetail() {
       if (!id) return;
       setLoading(true);
       try {
-        const res = await fetch(`/api/products/${id}`);
+        const res = await fetch(`${API_BASE}/api/products/${id}`);
         if (res.ok) {
           const data = await res.json();
           setProduct(data);

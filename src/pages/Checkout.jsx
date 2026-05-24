@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useApp } from '../context/AppContext';
 import { navigateTo, Link } from '../App';
 import { CreditCard, ShoppingBag, Truck, ShieldCheck, CheckCircle2, ArrowRight, Tag, AlertCircle } from 'lucide-react';
+import { API_BASE } from '../config';
 
 export default function Checkout() {
   const {
@@ -123,7 +124,7 @@ export default function Checkout() {
         total: cartTotal
       };
 
-      const res = await fetch('/api/orders', {
+      const res = await fetch(`${API_BASE}/api/orders`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(orderPayload)

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Star, Eye, ShoppingCart, RefreshCw, SlidersHorizontal, Check, X, Minus, Plus } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 import { Link } from '../App';
+import { API_BASE } from '../config';
 
 export default function Shop() {
   const { addToCart } = useApp();
@@ -54,7 +55,7 @@ export default function Shop() {
         if (inStockOnly) queryParams.set('inStock', 'true');
         queryParams.set('sort', sortBy);
 
-        const res = await fetch(`/api/products?${queryParams.toString()}`);
+        const res = await fetch(`${API_BASE}/api/products?${queryParams.toString()}`);
         if (res.ok) {
           const data = await res.json();
           setProducts(data);
